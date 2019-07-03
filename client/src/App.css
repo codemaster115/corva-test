@@ -1,0 +1,36 @@
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40px;
+  pointer-events: none;
+}
+
+.App-main {
+  padding: 0 40px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header label {
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.App-header input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
